@@ -1,0 +1,8 @@
+AllCops:
+  Exclude:
+    - 'db/seeds.rb'
+    - 'db/migrate/**/*'
+    - 'bin/**/*'
+
+Style/FrozenStringLiteralComment:
+  Enabled: false

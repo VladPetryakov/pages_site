@@ -1,0 +1,5 @@
+<li><%= page.name %></li><br>
+<% if page.subpages.size > 0 %>
+<%= render partial: "pages", locals: { pages: page.subpages, as: :pages } %>
+<% end %>
+
